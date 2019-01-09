@@ -2,15 +2,22 @@ import 'package:flutter/material.dart';
 
 
 class Category extends StatefulWidget {
+  final int id;
   final String name;
+  final _categorySelected;
 
-  Category(this.name);
+  Category(this.id, this.name, this._categorySelected);
 
   _CategoryState createState() => _CategoryState();
 }
 
 class _CategoryState extends State<Category> {
-  bool selected = false;
+  bool isSelected = false;
+
+  _categorySelected() {
+    setState(() => isSelected = !isSelected);
+    widget._categorySelected(widget.id, isSelected);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +27,7 @@ class _CategoryState extends State<Category> {
         width: 100,
         margin: EdgeInsets.all(5),
         decoration: BoxDecoration(
-          color: selected ? Colors.green : Colors.deepOrange,
+          color: isSelected ? Colors.green : Colors.deepOrange,
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -31,7 +38,7 @@ class _CategoryState extends State<Category> {
         )
 
       ),
-      onTap: () => setState(() => selected = !selected),
+      onTap: _categorySelected,
     );
   }
 }

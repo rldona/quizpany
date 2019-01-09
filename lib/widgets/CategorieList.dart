@@ -9,18 +9,25 @@ class CategorieList extends StatefulWidget {
 
 class _CategorieListState extends State<CategorieList> {
 
-  List categories = [
-    { 'id': 0, 'name': 'Front-end' },
-    { 'id': 1, 'name': 'Back-end' },
-    { 'id': 2, 'name': 'Dev-ops' },
-    { 'id': 3, 'name': 'Scrum Master' },
-    { 'id': 4, 'name': 'Architect' },
-    { 'id': 5, 'name': 'Facilitator' },
-    { 'id': 6, 'name': 'QA' },
-    { 'id': 7, 'name': 'People' },
+  List <Map<String, dynamic>> categories = [
+    { 'id': 0, 'name': 'Front-end', 'selected': false },
+    { 'id': 1, 'name': 'Back-end', 'selected': false },
+    { 'id': 2, 'name': 'Dev-ops', 'selected': false },
+    { 'id': 3, 'name': 'Scrum Master', 'selected': false },
+    { 'id': 4, 'name': 'Architect', 'selected': false },
+    { 'id': 5, 'name': 'Facilitator', 'selected': false },
+    { 'id': 6, 'name': 'QA', 'selected': false },
+    { 'id': 7, 'name': 'People', 'selected': false },
   ];
 
-  _renderCategories() => categories.map((category) => Category(category['name'])).toList();
+  List categoriesSelected = [];
+
+  _renderCategories() => categories.map((category) => Category(category['id'], category['name'], _categorySelected)).toList();
+
+
+  _categorySelected(id, isSelected) {
+    categories[id]['selected'] = isSelected;
+  }
 
   @override
   Widget build(BuildContext context) {

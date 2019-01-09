@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:quizpany/screens/SkillsSelection.dart';
 
-
 class Login extends StatefulWidget {
   _LoginState createState() => _LoginState();
 }
@@ -12,27 +11,62 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Text('Quizpany', style: TextStyle(color: Colors.black, fontSize: 40, fontWeight: FontWeight.w600), textAlign: TextAlign.center),
-          Padding(padding: EdgeInsets.all(95), child:
-          RaisedButton(
-            color: Color.fromRGBO(255, 85, 14, 1),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              mainAxisSize: MainAxisSize.max,
-              children: <Widget>[
-                Padding(padding: EdgeInsets.only(right: 0), child: Icon(Icons.person, color: Colors.white)),
-                Text('Acceder con Google', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600), textAlign: TextAlign.center),
-              ]
-            ),
-            padding: EdgeInsets.all(10),
-            onPressed: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => SkillsSelection()))
-          ))
-        ],
+      body: Container(
+        height: MediaQuery.of(context).size.height,
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/images/bg-login.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Text(
+                'Quizpany',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 50,
+                  fontWeight: FontWeight.w600,
+                  fontFamily: 'RobotoMono'
+                ),
+                textAlign: TextAlign.center,
+              ),
+              Container(
+                padding: EdgeInsets.all(90),
+                child: RaisedButton(
+                  color: Colors.white,
+                  shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(50.0)),
+                  child: Row(
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.only(right: 10),
+                        child: Image(image: AssetImage('assets/images/google.jpg'), fit: BoxFit.fitWidth, width: 25),
+                      ),
+                      Text(
+                        'Acceder con Google',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
+                  ),
+                  padding: EdgeInsets.all(10),
+                  onPressed: () => Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => SkillsSelection(),
+                        ),
+                      ),
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
