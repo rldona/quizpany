@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:quizpany/widgets/Category.dart';
 
 
-class CategorieList extends StatefulWidget {
-  _CategorieListState createState() => _CategorieListState();
+class CategoryList extends StatefulWidget {
+  _CategoryListState createState() => _CategoryListState();
 }
 
-class _CategorieListState extends State<CategorieList> {
+class _CategoryListState extends State<CategoryList> {
 
   List <Map<String, dynamic>> categories = [
     { 'id': 0, 'name': 'Front-end', 'selected': false },
