@@ -56,7 +56,7 @@ class _SkillsSelectionState extends State<SkillsSelection> {
                       ),
                     ),
                     color: Colors.blue,
-                    onPressed: () => Navigator.pushReplacementNamed(context, '/results'),
+                    onPressed: () => Navigator.pushReplacementNamed(context, '/quiz'),
                   ),
                 )
               ],
