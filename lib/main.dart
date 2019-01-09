@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quizpany/screens/results.dart';
 import 'package:quizpany/screens/Login.dart';
-
+import 'package:quizpany/screens/skills_selection.dart';
 
 void main() => runApp(Quizpany());
 
@@ -16,6 +16,7 @@ class Quizpany extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (BuildContext context) => Login(),
+        '/skillsSelection': (BuildContext context) => SkillsSelection(),
         '/results': (BuildContext context) => ResultsScreen(),
       },
     );

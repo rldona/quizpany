@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:quizpany/screens/SkillsSelection.dart';
-
 class Login extends StatefulWidget {
   _LoginState createState() => _LoginState();
 }
@@ -56,12 +54,7 @@ class _LoginState extends State<Login> {
                     ],
                   ),
                   padding: EdgeInsets.all(10),
-                  onPressed: () => Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => SkillsSelection(),
-                        ),
-                      ),
+                  onPressed: () => Navigator.pushReplacementNamed(context, '/skillsSelection'),
                 ),
               ),
             ],

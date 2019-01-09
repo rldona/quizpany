@@ -10,7 +10,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
     {
       'id': 1,
       'rightAnswer': 'A',
-      'givenAnswer': 'B',
+      'givenAnswer': 'A',
       'question': 'Diferencia entre map y reduce',
       'explanation': "Map mapea y Reduce reduce",
       'expanded': false,
@@ -131,15 +131,15 @@ class _ResultsScreenState extends State<ResultsScreen> {
               label: Text('Submit'),
               icon: Icon(Icons.send),
               onPressed: isPassingScore
-                ? () {
-                    Scaffold.of(_scaffoldContext).showSnackBar(
-                      SnackBar(
-                        content: Text('Your data has been sent'),
-                        duration: Duration(seconds: 1),
-                      ),
-                    );
-                  }
-                : null,
+                  ? () {
+                      Scaffold.of(_scaffoldContext).showSnackBar(
+                        SnackBar(
+                          content: Text('Your data has been sent'),
+                          duration: Duration(seconds: 1),
+                        ),
+                      );
+                    }
+                  : null,
             ),
           ],
         ),
