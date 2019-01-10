@@ -28,7 +28,6 @@ class _QuizState extends State<Quiz> with TickerProviderStateMixin {
 
     timerController.forward();
     timerController.addStatusListener((AnimationStatus status) {
-      print(status);
       if (status == AnimationStatus.completed) {
         chooseAnswer(-1);
       }
@@ -36,18 +35,18 @@ class _QuizState extends State<Quiz> with TickerProviderStateMixin {
   }
 
   void chooseAnswer(int answerIndex) {
-    setState(() {
-      givenAnswers.add(answerIndex);
-      if (_currentQuestion != _maxQuestions - 1 ) {
-        _currentQuestion += 1;
-        timerController.forward(from: 0.0);
-      } else {
-        Navigator.pushReplacementNamed(context, '/results');
-      }
+    Future.delayed(Duration(seconds: 1), () {
+      setState(() {
+        givenAnswers.add(answerIndex);
+        if (_currentQuestion != _maxQuestions - 1) {
+          _currentQuestion += 1;
+          timerController.forward(from: 0.0);
+        } else {
+          Navigator.pushReplacementNamed(context, '/results');
+        }
+      });
     });
   }
-
-  
 
   Widget _buildBody(List<QuestionModel> questions) {
     print(questions[_currentQuestion]);
