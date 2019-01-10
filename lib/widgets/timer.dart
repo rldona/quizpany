@@ -41,7 +41,8 @@ class TimerBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
+    return Container(
+      height: 50,
       child: Stack(
         children: <Widget>[
           Positioned.fill(
@@ -71,7 +72,7 @@ class TimerBar extends StatelessWidget {
                   timerString,
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 40.0,
+                    fontSize: 30.0,
                     fontWeight: FontWeight.bold,
                   ),
                 );
