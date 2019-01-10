@@ -18,6 +18,13 @@ class QuestionModel {
       : id = parsedJson['id'],
         text = parsedJson['text'],
         answers = List<dynamic>.from(parsedJson['answers'])
-            .map((json) => AnswerModel.fromJson(json)).toList(),
+            .map((json) => AnswerModel.fromJson(json))
+            .toList(),
         explanation = parsedJson['explanation'];
+
+  @override
+  String toString() {
+    // TODO: implement toString
+    return "Question id $id: $text -> $explanation";
+  }
 }

@@ -68,7 +68,8 @@
                         "text": "There's no difference they both accomplish the same thing",
                         "value": false
                     }
-                ]
+                ],
+                "explanation": "block is not a valid a HTML5 element"
             },
             {
                 "id": 4,
@@ -90,7 +91,8 @@
                         "text": "script asynchronous",
                         "value": false
                     }
-                ]
+                ],
+                "explanation": "block is not a valid a HTML5 element"
             },
             {
                 "id": 5,
@@ -112,7 +114,8 @@
                         "text": "A way to change the width of the browser window",
                         "value": false
                     }
-                ]
+                ],
+                "explanation": "block is not a valid a HTML5 element"
             },
             {
                 "id": 6,
@@ -134,7 +137,8 @@
                         "text": "One task waits for the next task to finish before running",
                         "value": false
                     }
-                ]
+                ],
+                "explanation": "block is not a valid a HTML5 element"
             },
             {
                 "id": 7,
@@ -156,7 +160,8 @@
                         "text": "Surfacing an event",
                         "value": false
                     }
-                ]
+                ],
+                "explanation": "block is not a valid a HTML5 element"
             },
             {
                 "id": 8,
@@ -178,7 +183,8 @@
                         "text": "May cause W3C validation errors",
                         "value": false
                     }
-                ]
+                ],
+                "explanation": "block is not a valid a HTML5 element"
             },
             {
                 "id": 9,
@@ -200,7 +206,8 @@
                         "text": "Closures help structure objects in JavaScript",
                         "value": false
                     }
-                ]
+                ],
+                "explanation": "block is not a valid a HTML5 element"
             },
             {
                 "id": 10,
@@ -208,7 +215,7 @@
                 "answers": [
                     {
                         "text": "React",
-                        "value": false
+                        "value": true
                     },
                     {
                         "text": "Angular",
@@ -222,7 +229,8 @@
                         "text": "Polymer",
                         "value": false
                     }
-                ]
+                ],
+                "explanation": "block is not a valid a HTML5 element"
             }
         ]
     },

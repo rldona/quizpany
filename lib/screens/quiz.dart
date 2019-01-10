@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizpany/blocs/correct_answers_bloc.dart';
 import 'package:quizpany/blocs/questions_bloc.dart';
 import 'package:quizpany/models/question.dart';
 
@@ -12,7 +13,7 @@ class Quiz extends StatefulWidget {
 
 class _QuizState extends State<Quiz> with TickerProviderStateMixin {
   AnimationController timerController;
-  List<int> givenAnswers = [];
+  List<bool> givenAnswers = [];
   int _currentQuestion = 0;
   int _maxQuestions = 0;
 
@@ -29,19 +30,20 @@ class _QuizState extends State<Quiz> with TickerProviderStateMixin {
     timerController.forward();
     timerController.addStatusListener((AnimationStatus status) {
       if (status == AnimationStatus.completed) {
-        chooseAnswer(-1);
+        chooseAnswer(false);
       }
     });
   }
 
-  void chooseAnswer(int answerIndex) {
+  void chooseAnswer(bool correctAnswer) {
     Future.delayed(Duration(seconds: 1), () {
       setState(() {
-        givenAnswers.add(answerIndex);
+        givenAnswers.add(correctAnswer);
         if (_currentQuestion != _maxQuestions - 1) {
           _currentQuestion += 1;
           timerController.forward(from: 0.0);
         } else {
+          correctAnswersBloc.submitAnswers(givenAnswers);
           Navigator.pushReplacementNamed(context, '/results');
         }
       });
@@ -49,7 +51,6 @@ class _QuizState extends State<Quiz> with TickerProviderStateMixin {
   }
 
   Widget _buildBody(List<QuestionModel> questions) {
-    print(questions[_currentQuestion]);
     return Column(
       children: <Widget>[
         TimerBar(timerController, _questionTime),

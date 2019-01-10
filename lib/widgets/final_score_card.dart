@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quizpany/models/answer.dart';
 
 class FinalScoreCard extends StatelessWidget {
-  final List<AnswerModel> answers;
+  final List<bool> answers;
   final VoidCallback onSubmit;
   final scoreThreshold = 0.65;
 
@@ -11,7 +10,7 @@ class FinalScoreCard extends StatelessWidget {
   double _getScore() {
     final rightCount = answers.fold(
       0,
-      (nRight, answer) => nRight + (answer.value ? 1 : 0),
+      (nRight, answer) => nRight + (answer ? 1 : 0),
     );
     return rightCount / answers.length;
   }
@@ -47,7 +46,7 @@ class FinalScoreCard extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       Text(
-                        'Your score is ${score * 100}%',
+                        'Your score is ${(score * 100).toStringAsFixed(0)}%',
                       ),
                       SizedBox(height: 250.0 / 4),
                       Text(

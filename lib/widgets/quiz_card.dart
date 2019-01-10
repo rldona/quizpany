@@ -5,6 +5,7 @@ import 'package:quizpany/widgets/answer.dart';
 
 class QuizCard extends StatefulWidget {
   final QuestionModel _question;
+  // final List<Answer> _shuffledAnswers
   final Function _onAnswer;
 
   QuizCard(this._question, this._onAnswer) {
@@ -36,7 +37,7 @@ class _QuizCardState extends State<QuizCard> {
       _chosenCorrectAnswer = _question.answers[selectedAnswer].value;
       _selectedAnswer = selectedAnswer;
     });
-    widget._onAnswer(selectedAnswer);
+    widget._onAnswer(_chosenCorrectAnswer);
   }
 
   @override
