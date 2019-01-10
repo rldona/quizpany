@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:quizpany/models/answer.dart';
 import 'package:quizpany/widgets/final_score_card.dart';
 
-class ResultsScreen extends StatefulWidget {
+class Results extends StatefulWidget {
   final List<Answer> _answers = [
     Answer(
       id: 1,
@@ -44,10 +44,10 @@ class ResultsScreen extends StatefulWidget {
   ];
 
   @override
-  State<StatefulWidget> createState() => _ResultsScreenState();
+  State<StatefulWidget> createState() => _ResultsState();
 }
 
-class _ResultsScreenState extends State<ResultsScreen> {
+class _ResultsState extends State<Results> {
   HashSet<int> _expandedAnswers = HashSet.identity();
 
   BuildContext _scaffoldContext;

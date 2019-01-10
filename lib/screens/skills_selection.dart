@@ -7,28 +7,28 @@ class SkillsSelection extends StatefulWidget {
 }
 
 class _SkillsSelectionState extends State<SkillsSelection> {
-  List <Map<String, dynamic>> categories = [
-    { 'id': 0, 'name': 'Front-end', 'selected': false },
-    { 'id': 1, 'name': 'Back-end', 'selected': false },
-    { 'id': 2, 'name': 'Dev-ops', 'selected': false },
-    { 'id': 3, 'name': 'Scrum Master', 'selected': false },
-    { 'id': 4, 'name': 'Architect', 'selected': false },
-    { 'id': 5, 'name': 'Facilitator', 'selected': false },
-    { 'id': 6, 'name': 'QA', 'selected': false },
-    { 'id': 7, 'name': 'People', 'selected': false },
+  List<Map<String, dynamic>> categories = [
+    {'id': 0, 'name': 'Front-end', 'selected': false},
+    {'id': 1, 'name': 'Back-end', 'selected': false},
+    {'id': 2, 'name': 'Dev-ops', 'selected': false},
+    {'id': 3, 'name': 'Scrum Master', 'selected': false},
+    {'id': 4, 'name': 'Architect', 'selected': false},
+    {'id': 5, 'name': 'Facilitator', 'selected': false},
+    {'id': 6, 'name': 'QA', 'selected': false},
+    {'id': 7, 'name': 'People', 'selected': false},
   ];
 
   List categoriesSelected = [];
 
   _addRemoveCategory(id, isSelected) {
     categories[id]['selected'] = isSelected;
-    isSelected ? categoriesSelected.add(categories[id]) : categoriesSelected.removeWhere((category) => category['id'] == id);
+    isSelected
+        ? categoriesSelected.add(categories[id])
+        : categoriesSelected.removeWhere((category) => category['id'] == id);
     print(categoriesSelected);
   }
 
-  _shouldSelectedCategory() {
-
-  }
+  _shouldSelectedCategory() {}
 
   @override
   Widget build(BuildContext context) {
@@ -80,9 +80,12 @@ class _SkillsSelectionState extends State<SkillsSelection> {
                     ),
                     color: Colors.blue,
                     // TODO: replace route by explanation screen
-                    onPressed: () => categoriesSelected.length > 0 ? Navigator.pushReplacementNamed(context, '/quiz') : _shouldSelectedCategory,
+                    onPressed: () => categoriesSelected.length > 0
+                        ? Navigator.pushReplacementNamed(
+                            context, '/explanation')
+                        : _shouldSelectedCategory,
                   ),
-                )
+                ),
               ],
             ),
           ),
