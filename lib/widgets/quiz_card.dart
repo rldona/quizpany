@@ -4,10 +4,12 @@ import 'package:quizpany/models/question.dart';
 import 'package:quizpany/widgets/answer.dart';
 
 class QuizCard extends StatefulWidget {
-  final QuestionModel question;
+  final QuestionModel _question;
   final Function _onAnswer;
 
-  QuizCard(this.question, this._onAnswer);
+  QuizCard(this._question, this._onAnswer) {
+    _question.answers.shuffle();
+  }
 
   _QuizCardState createState() => _QuizCardState();
 }
@@ -17,11 +19,11 @@ class _QuizCardState extends State<QuizCard> {
   bool _chosenCorrectAnswer;
   QuestionModel _question;
 
-  _renderAnswers() => widget.question.answers
+  _renderAnswers() => widget._question.answers
       .map<Widget>(
         (answer) => Answer(
               answer,
-              widget.question.answers.indexOf(answer),
+              widget._question.answers.indexOf(answer),
               _selectedAnswer,
               _chosenCorrectAnswer,
               _onSelect,
@@ -39,9 +41,9 @@ class _QuizCardState extends State<QuizCard> {
 
   @override
   Widget build(BuildContext context) {
-    if (_question != widget.question) {
+    if (_question != widget._question) {
       setState(() {
-        _question = widget.question;
+        _question = widget._question;
         _selectedAnswer = null;
       });
     }
@@ -53,7 +55,7 @@ class _QuizCardState extends State<QuizCard> {
           children: <Widget>[
             ListTile(
               title: Text(
-                widget.question.text,
+                widget._question.text,
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
