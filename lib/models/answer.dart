@@ -1,13 +1,19 @@
-class Answer {
+class AnswerModel {
   final String text;
   final bool value;
 
-  Answer({
+  AnswerModel({
     this.text,
     this.value,
   });
 
-  Answer.fromJson(Map<String, dynamic> parsedJson)
+  AnswerModel.fromJson(Map<String, dynamic> parsedJson)
       : text = parsedJson['text'],
         value = parsedJson['value'];
+
+  @override
+    String toString() {
+      
+      return "Answer $text $value";
+    }
 }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quizpany/models/answer.dart';
 
 class FinalScoreCard extends StatelessWidget {
-  final List<Answer> answers;
+  final List<AnswerModel> answers;
   final VoidCallback onSubmit;
   final scoreThreshold = 0.65;
 

@@ -7,19 +7,19 @@
                 "text": "What does doctype in HTML do?",
                 "answers": [
                     {
-                        "answer": "Tells the browser how to render the HTML markup",
+                        "text": "Tells the browser how to render the HTML markup",
                         "value": true
                     },
                     {
-                        "answer": "Loads all references to external JavaScript files",
+                        "text": "Loads all references to external JavaScript files",
                         "value": false
                     },
                     {
-                        "answer": "Adds CSS styles to the HTML page",
+                        "text": "Adds CSS styles to the HTML page",
                         "value": false
                     },
                     {
-                        "answer": "It doesn't do anything it's just there as a comment to other developers",
+                        "text": "It doesn't do anything it's just there as a comment to other developers",
                         "value": false
                     }
                 ],
@@ -30,19 +30,19 @@
                 "text": "What is *NOT* an HTML5 element?",
                 "answers": [
                     {
-                        "answer": "block",
+                        "text": "block",
                         "value": true
                     },
                     {
-                        "answer": "audio",
+                        "text": "audio",
                         "value": false
                     },
                     {
-                        "answer": "canvas",
+                        "text": "canvas",
                         "value": false
                     },
                     {
-                        "answer": "section",
+                        "text": "section",
                         "value": false
                     }
                 ],
@@ -53,19 +53,19 @@
                 "text": "What is the difference between sessionStorage and localStorage?",
                 "answers": [
                     {
-                        "answer": "localStorage stores data with no expiration date",
+                        "text": "localStorage stores data with no expiration date",
                         "value": true
                     },
                     {
-                        "answer": "sessionStorage can only be used once",
+                        "text": "sessionStorage can only be used once",
                         "value": false
                     },
                     {
-                        "answer": "sessionStorage holds more data",
+                        "text": "sessionStorage holds more data",
                         "value": false
                     },
                     {
-                        "answer": "There's no difference they both accomplish the same thing",
+                        "text": "There's no difference they both accomplish the same thing",
                         "value": false
                     }
                 ]
@@ -75,19 +75,19 @@
                 "text": "How can you make a script run asynchronous?",
                 "answers": [
                     {
-                        "answer": "script async",
+                        "text": "script async",
                         "value": true
                     },
                     {
-                        "answer": "asynchronous",
+                        "text": "asynchronous",
                         "value": false
                     },
                     {
-                        "answer": "async script",
+                        "text": "async script",
                         "value": false
                     },
                     {
-                        "answer": "script asynchronous",
+                        "text": "script asynchronous",
                         "value": false
                     }
                 ]
@@ -97,19 +97,19 @@
                 "text": "What is Flexbox?",
                 "answers": [
                     {
-                        "answer": "Is a layout mode providing for the arrangement of elements",
+                        "text": "Is a layout mode providing for the arrangement of elements",
                         "value": true
                     },
                     {
-                        "answer": "How the browser interprets CSS",
+                        "text": "How the browser interprets CSS",
                         "value": false
                     },
                     {
-                        "answer": "A CSS animation framework",
+                        "text": "A CSS animation framework",
                         "value": false
                     },
                     {
-                        "answer": "A way to change the width of the browser window",
+                        "text": "A way to change the width of the browser window",
                         "value": false
                     }
                 ]
@@ -119,19 +119,19 @@
                 "text": "What does asynchronous mean?",
                 "answers": [
                     {
-                        "answer": "A script will send a request to the server, and continue its execution without waiting for the reply",
+                        "text": "A script will send a request to the server, and continue its execution without waiting for the reply",
                         "value": true
                     },
                     {
-                        "answer": "A task calls another task",
+                        "text": "A task calls another task",
                         "value": false
                     },
                     {
-                        "answer": "Order of operation",
+                        "text": "Order of operation",
                         "value": false
                     },
                     {
-                        "answer": "One task waits for the next task to finish before running",
+                        "text": "One task waits for the next task to finish before running",
                         "value": false
                     }
                 ]
@@ -141,19 +141,19 @@
                 "text": "What is event bubbling?",
                 "answers": [
                     {
-                        "answer": "The handler of the parent works even if the child is clicked",
+                        "text": "The handler of the parent works even if the child is clicked",
                         "value": true
                     },
                     {
-                        "answer": "A type of animation easing",
+                        "text": "A type of animation easing",
                         "value": false
                     },
                     {
-                        "answer": "Events that cause errors in the browser",
+                        "text": "Events that cause errors in the browser",
                         "value": false
                     },
                     {
-                        "answer": "Surfacing an event",
+                        "text": "Surfacing an event",
                         "value": false
                     }
                 ]
@@ -163,19 +163,19 @@
                 "text": "What is a problem with a single page app?",
                 "answers": [
                     {
-                        "answer": "Can cause SEO issues",
+                        "text": "Can cause SEO issues",
                         "value": true
                     },
                     {
-                        "answer": "May not have enough pages",
+                        "text": "May not have enough pages",
                         "value": false
                     },
                     {
-                        "answer": "Can have HTML issues",
+                        "text": "Can have HTML issues",
                         "value": false
                     },
                     {
-                        "answer": "May cause W3C validation errors",
+                        "text": "May cause W3C validation errors",
                         "value": false
                     }
                 ]
@@ -185,19 +185,19 @@
                 "text": "How do JavaScript closures work?",
                 "answers": [
                     {
-                        "answer": "A function within another function, the inner function has access to variables in the outer function",
+                        "text": "A function within another function, the inner function has access to variables in the outer function",
                         "value": true
                     },
                     {
-                        "answer": "It's a way to close a function in JavaScript",
+                        "text": "It's a way to close a function in JavaScript",
                         "value": false
                     },
                     {
-                        "answer": "JavaScript doesn't use closures",
+                        "text": "JavaScript doesn't use closures",
                         "value": false
                     },
                     {
-                        "answer": "Closures help structure objects in JavaScript",
+                        "text": "Closures help structure objects in JavaScript",
                         "value": false
                     }
                 ]
@@ -207,19 +207,19 @@
                 "text": "Which of these is the superior framework?",
                 "answers": [
                     {
-                        "answer": "React",
+                        "text": "React",
                         "value": false
                     },
                     {
-                        "answer": "Angular",
+                        "text": "Angular",
                         "value": false
                     },
                     {
-                        "answer": "Vue",
+                        "text": "Vue",
                         "value": false
                     },
                     {
-                        "answer": "Polymer",
+                        "text": "Polymer",
                         "value": false
                     }
                 ]
@@ -234,19 +234,19 @@
                 "text": "What does doctype in HTML do?",
                 "answers": [
                     {
-                        "answer": "Tells the browser how to render the HTML markup",
+                        "text": "Tells the browser how to render the HTML markup",
                         "value": true
                     },
                     {
-                        "answer": "Loads all references to external JavaScript files",
+                        "text": "Loads all references to external JavaScript files",
                         "value": false
                     },
                     {
-                        "answer": "Adds CSS styles to the HTML page",
+                        "text": "Adds CSS styles to the HTML page",
                         "value": false
                     },
                     {
-                        "answer": "It doesn't do anything it's just there as a comment to other developers",
+                        "text": "It doesn't do anything it's just there as a comment to other developers",
                         "value": false
                     }
                 ],
@@ -257,19 +257,19 @@
                 "text": "What is *NOT* an HTML5 element?",
                 "answers": [
                     {
-                        "answer": "block",
+                        "text": "block",
                         "value": true
                     },
                     {
-                        "answer": "audio",
+                        "text": "audio",
                         "value": false
                     },
                     {
-                        "answer": "canvas",
+                        "text": "canvas",
                         "value": false
                     },
                     {
-                        "answer": "section",
+                        "text": "section",
                         "value": false
                     }
                 ],
@@ -280,19 +280,19 @@
                 "text": "What is the difference between sessionStorage and localStorage?",
                 "answers": [
                     {
-                        "answer": "localStorage stores data with no expiration date",
+                        "text": "localStorage stores data with no expiration date",
                         "value": true
                     },
                     {
-                        "answer": "sessionStorage can only be used once",
+                        "text": "sessionStorage can only be used once",
                         "value": false
                     },
                     {
-                        "answer": "sessionStorage holds more data",
+                        "text": "sessionStorage holds more data",
                         "value": false
                     },
                     {
-                        "answer": "There's no difference they both accomplish the same thing",
+                        "text": "There's no difference they both accomplish the same thing",
                         "value": false
                     }
                 ]
@@ -302,19 +302,19 @@
                 "text": "How can you make a script run asynchronous?",
                 "answers": [
                     {
-                        "answer": "script async",
+                        "text": "script async",
                         "value": true
                     },
                     {
-                        "answer": "asynchronous",
+                        "text": "asynchronous",
                         "value": false
                     },
                     {
-                        "answer": "async script",
+                        "text": "async script",
                         "value": false
                     },
                     {
-                        "answer": "script asynchronous",
+                        "text": "script asynchronous",
                         "value": false
                     }
                 ]
@@ -324,19 +324,19 @@
                 "text": "What is Flexbox?",
                 "answers": [
                     {
-                        "answer": "Is a layout mode providing for the arrangement of elements",
+                        "text": "Is a layout mode providing for the arrangement of elements",
                         "value": true
                     },
                     {
-                        "answer": "How the browser interprets CSS",
+                        "text": "How the browser interprets CSS",
                         "value": false
                     },
                     {
-                        "answer": "A CSS animation framework",
+                        "text": "A CSS animation framework",
                         "value": false
                     },
                     {
-                        "answer": "A way to change the width of the browser window",
+                        "text": "A way to change the width of the browser window",
                         "value": false
                     }
                 ]
@@ -346,19 +346,19 @@
                 "text": "What does asynchronous mean?",
                 "answers": [
                     {
-                        "answer": "A script will send a request to the server, and continue its execution without waiting for the reply",
+                        "text": "A script will send a request to the server, and continue its execution without waiting for the reply",
                         "value": true
                     },
                     {
-                        "answer": "A task calls another task",
+                        "text": "A task calls another task",
                         "value": false
                     },
                     {
-                        "answer": "Order of operation",
+                        "text": "Order of operation",
                         "value": false
                     },
                     {
-                        "answer": "One task waits for the next task to finish before running",
+                        "text": "One task waits for the next task to finish before running",
                         "value": false
                     }
                 ]
@@ -368,19 +368,19 @@
                 "text": "What is event bubbling?",
                 "answers": [
                     {
-                        "answer": "The handler of the parent works even if the child is clicked",
+                        "text": "The handler of the parent works even if the child is clicked",
                         "value": true
                     },
                     {
-                        "answer": "A type of animation easing",
+                        "text": "A type of animation easing",
                         "value": false
                     },
                     {
-                        "answer": "Events that cause errors in the browser",
+                        "text": "Events that cause errors in the browser",
                         "value": false
                     },
                     {
-                        "answer": "Surfacing an event",
+                        "text": "Surfacing an event",
                         "value": false
                     }
                 ]
@@ -390,19 +390,19 @@
                 "text": "What is a problem with a single page app?",
                 "answers": [
                     {
-                        "answer": "Can cause SEO issues",
+                        "text": "Can cause SEO issues",
                         "value": true
                     },
                     {
-                        "answer": "May not have enough pages",
+                        "text": "May not have enough pages",
                         "value": false
                     },
                     {
-                        "answer": "Can have HTML issues",
+                        "text": "Can have HTML issues",
                         "value": false
                     },
                     {
-                        "answer": "May cause W3C validation errors",
+                        "text": "May cause W3C validation errors",
                         "value": false
                     }
                 ]
@@ -412,19 +412,19 @@
                 "text": "How do JavaScript closures work?",
                 "answers": [
                     {
-                        "answer": "A function within another function, the inner function has access to variables in the outer function",
+                        "text": "A function within another function, the inner function has access to variables in the outer function",
                         "value": true
                     },
                     {
-                        "answer": "It's a way to close a function in JavaScript",
+                        "text": "It's a way to close a function in JavaScript",
                         "value": false
                     },
                     {
-                        "answer": "JavaScript doesn't use closures",
+                        "text": "JavaScript doesn't use closures",
                         "value": false
                     },
                     {
-                        "answer": "Closures help structure objects in JavaScript",
+                        "text": "Closures help structure objects in JavaScript",
                         "value": false
                     }
                 ]
@@ -434,19 +434,19 @@
                 "text": "Which of these is the superior framework?",
                 "answers": [
                     {
-                        "answer": "React",
+                        "text": "React",
                         "value": false
                     },
                     {
-                        "answer": "Angular",
+                        "text": "Angular",
                         "value": false
                     },
                     {
-                        "answer": "Vue",
+                        "text": "Vue",
                         "value": false
                     },
                     {
-                        "answer": "Polymer",
+                        "text": "Polymer",
                         "value": false
                     }
                 ]
@@ -461,19 +461,19 @@
                 "text": "What does doctype in HTML do?",
                 "answers": [
                     {
-                        "answer": "Tells the browser how to render the HTML markup",
+                        "text": "Tells the browser how to render the HTML markup",
                         "value": true
                     },
                     {
-                        "answer": "Loads all references to external JavaScript files",
+                        "text": "Loads all references to external JavaScript files",
                         "value": false
                     },
                     {
-                        "answer": "Adds CSS styles to the HTML page",
+                        "text": "Adds CSS styles to the HTML page",
                         "value": false
                     },
                     {
-                        "answer": "It doesn't do anything it's just there as a comment to other developers",
+                        "text": "It doesn't do anything it's just there as a comment to other developers",
                         "value": false
                     }
                 ],
@@ -484,19 +484,19 @@
                 "text": "What is *NOT* an HTML5 element?",
                 "answers": [
                     {
-                        "answer": "block",
+                        "text": "block",
                         "value": true
                     },
                     {
-                        "answer": "audio",
+                        "text": "audio",
                         "value": false
                     },
                     {
-                        "answer": "canvas",
+                        "text": "canvas",
                         "value": false
                     },
                     {
-                        "answer": "section",
+                        "text": "section",
                         "value": false
                     }
                 ],
@@ -507,19 +507,19 @@
                 "text": "What is the difference between sessionStorage and localStorage?",
                 "answers": [
                     {
-                        "answer": "localStorage stores data with no expiration date",
+                        "text": "localStorage stores data with no expiration date",
                         "value": true
                     },
                     {
-                        "answer": "sessionStorage can only be used once",
+                        "text": "sessionStorage can only be used once",
                         "value": false
                     },
                     {
-                        "answer": "sessionStorage holds more data",
+                        "text": "sessionStorage holds more data",
                         "value": false
                     },
                     {
-                        "answer": "There's no difference they both accomplish the same thing",
+                        "text": "There's no difference they both accomplish the same thing",
                         "value": false
                     }
                 ]
@@ -529,19 +529,19 @@
                 "text": "How can you make a script run asynchronous?",
                 "answers": [
                     {
-                        "answer": "script async",
+                        "text": "script async",
                         "value": true
                     },
                     {
-                        "answer": "asynchronous",
+                        "text": "asynchronous",
                         "value": false
                     },
                     {
-                        "answer": "async script",
+                        "text": "async script",
                         "value": false
                     },
                     {
-                        "answer": "script asynchronous",
+                        "text": "script asynchronous",
                         "value": false
                     }
                 ]
@@ -551,19 +551,19 @@
                 "text": "What is Flexbox?",
                 "answers": [
                     {
-                        "answer": "Is a layout mode providing for the arrangement of elements",
+                        "text": "Is a layout mode providing for the arrangement of elements",
                         "value": true
                     },
                     {
-                        "answer": "How the browser interprets CSS",
+                        "text": "How the browser interprets CSS",
                         "value": false
                     },
                     {
-                        "answer": "A CSS animation framework",
+                        "text": "A CSS animation framework",
                         "value": false
                     },
                     {
-                        "answer": "A way to change the width of the browser window",
+                        "text": "A way to change the width of the browser window",
                         "value": false
                     }
                 ]
@@ -573,19 +573,19 @@
                 "text": "What does asynchronous mean?",
                 "answers": [
                     {
-                        "answer": "A script will send a request to the server, and continue its execution without waiting for the reply",
+                        "text": "A script will send a request to the server, and continue its execution without waiting for the reply",
                         "value": true
                     },
                     {
-                        "answer": "A task calls another task",
+                        "text": "A task calls another task",
                         "value": false
                     },
                     {
-                        "answer": "Order of operation",
+                        "text": "Order of operation",
                         "value": false
                     },
                     {
-                        "answer": "One task waits for the next task to finish before running",
+                        "text": "One task waits for the next task to finish before running",
                         "value": false
                     }
                 ]
@@ -595,19 +595,19 @@
                 "text": "What is event bubbling?",
                 "answers": [
                     {
-                        "answer": "The handler of the parent works even if the child is clicked",
+                        "text": "The handler of the parent works even if the child is clicked",
                         "value": true
                     },
                     {
-                        "answer": "A type of animation easing",
+                        "text": "A type of animation easing",
                         "value": false
                     },
                     {
-                        "answer": "Events that cause errors in the browser",
+                        "text": "Events that cause errors in the browser",
                         "value": false
                     },
                     {
-                        "answer": "Surfacing an event",
+                        "text": "Surfacing an event",
                         "value": false
                     }
                 ]
@@ -617,19 +617,19 @@
                 "text": "What is a problem with a single page app?",
                 "answers": [
                     {
-                        "answer": "Can cause SEO issues",
+                        "text": "Can cause SEO issues",
                         "value": true
                     },
                     {
-                        "answer": "May not have enough pages",
+                        "text": "May not have enough pages",
                         "value": false
                     },
                     {
-                        "answer": "Can have HTML issues",
+                        "text": "Can have HTML issues",
                         "value": false
                     },
                     {
-                        "answer": "May cause W3C validation errors",
+                        "text": "May cause W3C validation errors",
                         "value": false
                     }
                 ]
@@ -639,19 +639,19 @@
                 "text": "How do JavaScript closures work?",
                 "answers": [
                     {
-                        "answer": "A function within another function, the inner function has access to variables in the outer function",
+                        "text": "A function within another function, the inner function has access to variables in the outer function",
                         "value": true
                     },
                     {
-                        "answer": "It's a way to close a function in JavaScript",
+                        "text": "It's a way to close a function in JavaScript",
                         "value": false
                     },
                     {
-                        "answer": "JavaScript doesn't use closures",
+                        "text": "JavaScript doesn't use closures",
                         "value": false
                     },
                     {
-                        "answer": "Closures help structure objects in JavaScript",
+                        "text": "Closures help structure objects in JavaScript",
                         "value": false
                     }
                 ]
@@ -661,19 +661,19 @@
                 "text": "Which of these is the superior framework?",
                 "answers": [
                     {
-                        "answer": "React",
+                        "text": "React",
                         "value": false
                     },
                     {
-                        "answer": "Angular",
+                        "text": "Angular",
                         "value": false
                     },
                     {
-                        "answer": "Vue",
+                        "text": "Vue",
                         "value": false
                     },
                     {
-                        "answer": "Polymer",
+                        "text": "Polymer",
                         "value": false
                     }
                 ]
@@ -688,19 +688,19 @@
                 "text": "What does doctype in HTML do?",
                 "answers": [
                     {
-                        "answer": "Tells the browser how to render the HTML markup",
+                        "text": "Tells the browser how to render the HTML markup",
                         "value": true
                     },
                     {
-                        "answer": "Loads all references to external JavaScript files",
+                        "text": "Loads all references to external JavaScript files",
                         "value": false
                     },
                     {
-                        "answer": "Adds CSS styles to the HTML page",
+                        "text": "Adds CSS styles to the HTML page",
                         "value": false
                     },
                     {
-                        "answer": "It doesn't do anything it's just there as a comment to other developers",
+                        "text": "It doesn't do anything it's just there as a comment to other developers",
                         "value": false
                     }
                 ],
@@ -711,19 +711,19 @@
                 "text": "What is *NOT* an HTML5 element?",
                 "answers": [
                     {
-                        "answer": "block",
+                        "text": "block",
                         "value": true
                     },
                     {
-                        "answer": "audio",
+                        "text": "audio",
                         "value": false
                     },
                     {
-                        "answer": "canvas",
+                        "text": "canvas",
                         "value": false
                     },
                     {
-                        "answer": "section",
+                        "text": "section",
                         "value": false
                     }
                 ],
@@ -734,19 +734,19 @@
                 "text": "What is the difference between sessionStorage and localStorage?",
                 "answers": [
                     {
-                        "answer": "localStorage stores data with no expiration date",
+                        "text": "localStorage stores data with no expiration date",
                         "value": true
                     },
                     {
-                        "answer": "sessionStorage can only be used once",
+                        "text": "sessionStorage can only be used once",
                         "value": false
                     },
                     {
-                        "answer": "sessionStorage holds more data",
+                        "text": "sessionStorage holds more data",
                         "value": false
                     },
                     {
-                        "answer": "There's no difference they both accomplish the same thing",
+                        "text": "There's no difference they both accomplish the same thing",
                         "value": false
                     }
                 ]
@@ -756,19 +756,19 @@
                 "text": "How can you make a script run asynchronous?",
                 "answers": [
                     {
-                        "answer": "script async",
+                        "text": "script async",
                         "value": true
                     },
                     {
-                        "answer": "asynchronous",
+                        "text": "asynchronous",
                         "value": false
                     },
                     {
-                        "answer": "async script",
+                        "text": "async script",
                         "value": false
                     },
                     {
-                        "answer": "script asynchronous",
+                        "text": "script asynchronous",
                         "value": false
                     }
                 ]
@@ -778,19 +778,19 @@
                 "text": "What is Flexbox?",
                 "answers": [
                     {
-                        "answer": "Is a layout mode providing for the arrangement of elements",
+                        "text": "Is a layout mode providing for the arrangement of elements",
                         "value": true
                     },
                     {
-                        "answer": "How the browser interprets CSS",
+                        "text": "How the browser interprets CSS",
                         "value": false
                     },
                     {
-                        "answer": "A CSS animation framework",
+                        "text": "A CSS animation framework",
                         "value": false
                     },
                     {
-                        "answer": "A way to change the width of the browser window",
+                        "text": "A way to change the width of the browser window",
                         "value": false
                     }
                 ]
@@ -800,19 +800,19 @@
                 "text": "What does asynchronous mean?",
                 "answers": [
                     {
-                        "answer": "A script will send a request to the server, and continue its execution without waiting for the reply",
+                        "text": "A script will send a request to the server, and continue its execution without waiting for the reply",
                         "value": true
                     },
                     {
-                        "answer": "A task calls another task",
+                        "text": "A task calls another task",
                         "value": false
                     },
                     {
-                        "answer": "Order of operation",
+                        "text": "Order of operation",
                         "value": false
                     },
                     {
-                        "answer": "One task waits for the next task to finish before running",
+                        "text": "One task waits for the next task to finish before running",
                         "value": false
                     }
                 ]
@@ -822,19 +822,19 @@
                 "text": "What is event bubbling?",
                 "answers": [
                     {
-                        "answer": "The handler of the parent works even if the child is clicked",
+                        "text": "The handler of the parent works even if the child is clicked",
                         "value": true
                     },
                     {
-                        "answer": "A type of animation easing",
+                        "text": "A type of animation easing",
                         "value": false
                     },
                     {
-                        "answer": "Events that cause errors in the browser",
+                        "text": "Events that cause errors in the browser",
                         "value": false
                     },
                     {
-                        "answer": "Surfacing an event",
+                        "text": "Surfacing an event",
                         "value": false
                     }
                 ]
@@ -844,19 +844,19 @@
                 "text": "What is a problem with a single page app?",
                 "answers": [
                     {
-                        "answer": "Can cause SEO issues",
+                        "text": "Can cause SEO issues",
                         "value": true
                     },
                     {
-                        "answer": "May not have enough pages",
+                        "text": "May not have enough pages",
                         "value": false
                     },
                     {
-                        "answer": "Can have HTML issues",
+                        "text": "Can have HTML issues",
                         "value": false
                     },
                     {
-                        "answer": "May cause W3C validation errors",
+                        "text": "May cause W3C validation errors",
                         "value": false
                     }
                 ]
@@ -866,19 +866,19 @@
                 "text": "How do JavaScript closures work?",
                 "answers": [
                     {
-                        "answer": "A function within another function, the inner function has access to variables in the outer function",
+                        "text": "A function within another function, the inner function has access to variables in the outer function",
                         "value": true
                     },
                     {
-                        "answer": "It's a way to close a function in JavaScript",
+                        "text": "It's a way to close a function in JavaScript",
                         "value": false
                     },
                     {
-                        "answer": "JavaScript doesn't use closures",
+                        "text": "JavaScript doesn't use closures",
                         "value": false
                     },
                     {
-                        "answer": "Closures help structure objects in JavaScript",
+                        "text": "Closures help structure objects in JavaScript",
                         "value": false
                     }
                 ]
@@ -888,19 +888,19 @@
                 "text": "Which of these is the superior framework?",
                 "answers": [
                     {
-                        "answer": "React",
+                        "text": "React",
                         "value": false
                     },
                     {
-                        "answer": "Angular",
+                        "text": "Angular",
                         "value": false
                     },
                     {
-                        "answer": "Vue",
+                        "text": "Vue",
                         "value": false
                     },
                     {
-                        "answer": "Polymer",
+                        "text": "Polymer",
                         "value": false
                     }
                 ]
@@ -915,19 +915,19 @@
                 "text": "What does doctype in HTML do?",
                 "answers": [
                     {
-                        "answer": "Tells the browser how to render the HTML markup",
+                        "text": "Tells the browser how to render the HTML markup",
                         "value": true
                     },
                     {
-                        "answer": "Loads all references to external JavaScript files",
+                        "text": "Loads all references to external JavaScript files",
                         "value": false
                     },
                     {
-                        "answer": "Adds CSS styles to the HTML page",
+                        "text": "Adds CSS styles to the HTML page",
                         "value": false
                     },
                     {
-                        "answer": "It doesn't do anything it's just there as a comment to other developers",
+                        "text": "It doesn't do anything it's just there as a comment to other developers",
                         "value": false
                     }
                 ],
@@ -938,19 +938,19 @@
                 "text": "What is *NOT* an HTML5 element?",
                 "answers": [
                     {
-                        "answer": "block",
+                        "text": "block",
                         "value": true
                     },
                     {
-                        "answer": "audio",
+                        "text": "audio",
                         "value": false
                     },
                     {
-                        "answer": "canvas",
+                        "text": "canvas",
                         "value": false
                     },
                     {
-                        "answer": "section",
+                        "text": "section",
                         "value": false
                     }
                 ],
@@ -961,19 +961,19 @@
                 "text": "What is the difference between sessionStorage and localStorage?",
                 "answers": [
                     {
-                        "answer": "localStorage stores data with no expiration date",
+                        "text": "localStorage stores data with no expiration date",
                         "value": true
                     },
                     {
-                        "answer": "sessionStorage can only be used once",
+                        "text": "sessionStorage can only be used once",
                         "value": false
                     },
                     {
-                        "answer": "sessionStorage holds more data",
+                        "text": "sessionStorage holds more data",
                         "value": false
                     },
                     {
-                        "answer": "There's no difference they both accomplish the same thing",
+                        "text": "There's no difference they both accomplish the same thing",
                         "value": false
                     }
                 ]
@@ -983,19 +983,19 @@
                 "text": "How can you make a script run asynchronous?",
                 "answers": [
                     {
-                        "answer": "script async",
+                        "text": "script async",
                         "value": true
                     },
                     {
-                        "answer": "asynchronous",
+                        "text": "asynchronous",
                         "value": false
                     },
                     {
-                        "answer": "async script",
+                        "text": "async script",
                         "value": false
                     },
                     {
-                        "answer": "script asynchronous",
+                        "text": "script asynchronous",
                         "value": false
                     }
                 ]
@@ -1005,19 +1005,19 @@
                 "text": "What is Flexbox?",
                 "answers": [
                     {
-                        "answer": "Is a layout mode providing for the arrangement of elements",
+                        "text": "Is a layout mode providing for the arrangement of elements",
                         "value": true
                     },
                     {
-                        "answer": "How the browser interprets CSS",
+                        "text": "How the browser interprets CSS",
                         "value": false
                     },
                     {
-                        "answer": "A CSS animation framework",
+                        "text": "A CSS animation framework",
                         "value": false
                     },
                     {
-                        "answer": "A way to change the width of the browser window",
+                        "text": "A way to change the width of the browser window",
                         "value": false
                     }
                 ]
@@ -1027,19 +1027,19 @@
                 "text": "What does asynchronous mean?",
                 "answers": [
                     {
-                        "answer": "A script will send a request to the server, and continue its execution without waiting for the reply",
+                        "text": "A script will send a request to the server, and continue its execution without waiting for the reply",
                         "value": true
                     },
                     {
-                        "answer": "A task calls another task",
+                        "text": "A task calls another task",
                         "value": false
                     },
                     {
-                        "answer": "Order of operation",
+                        "text": "Order of operation",
                         "value": false
                     },
                     {
-                        "answer": "One task waits for the next task to finish before running",
+                        "text": "One task waits for the next task to finish before running",
                         "value": false
                     }
                 ]
@@ -1049,19 +1049,19 @@
                 "text": "What is event bubbling?",
                 "answers": [
                     {
-                        "answer": "The handler of the parent works even if the child is clicked",
+                        "text": "The handler of the parent works even if the child is clicked",
                         "value": true
                     },
                     {
-                        "answer": "A type of animation easing",
+                        "text": "A type of animation easing",
                         "value": false
                     },
                     {
-                        "answer": "Events that cause errors in the browser",
+                        "text": "Events that cause errors in the browser",
                         "value": false
                     },
                     {
-                        "answer": "Surfacing an event",
+                        "text": "Surfacing an event",
                         "value": false
                     }
                 ]
@@ -1071,19 +1071,19 @@
                 "text": "What is a problem with a single page app?",
                 "answers": [
                     {
-                        "answer": "Can cause SEO issues",
+                        "text": "Can cause SEO issues",
                         "value": true
                     },
                     {
-                        "answer": "May not have enough pages",
+                        "text": "May not have enough pages",
                         "value": false
                     },
                     {
-                        "answer": "Can have HTML issues",
+                        "text": "Can have HTML issues",
                         "value": false
                     },
                     {
-                        "answer": "May cause W3C validation errors",
+                        "text": "May cause W3C validation errors",
                         "value": false
                     }
                 ]
@@ -1093,19 +1093,19 @@
                 "text": "How do JavaScript closures work?",
                 "answers": [
                     {
-                        "answer": "A function within another function, the inner function has access to variables in the outer function",
+                        "text": "A function within another function, the inner function has access to variables in the outer function",
                         "value": true
                     },
                     {
-                        "answer": "It's a way to close a function in JavaScript",
+                        "text": "It's a way to close a function in JavaScript",
                         "value": false
                     },
                     {
-                        "answer": "JavaScript doesn't use closures",
+                        "text": "JavaScript doesn't use closures",
                         "value": false
                     },
                     {
-                        "answer": "Closures help structure objects in JavaScript",
+                        "text": "Closures help structure objects in JavaScript",
                         "value": false
                     }
                 ]
@@ -1115,19 +1115,19 @@
                 "text": "Which of these is the superior framework?",
                 "answers": [
                     {
-                        "answer": "React",
+                        "text": "React",
                         "value": false
                     },
                     {
-                        "answer": "Angular",
+                        "text": "Angular",
                         "value": false
                     },
                     {
-                        "answer": "Vue",
+                        "text": "Vue",
                         "value": false
                     },
                     {
-                        "answer": "Polymer",
+                        "text": "Polymer",
                         "value": false
                     }
                 ]
@@ -1142,19 +1142,19 @@
                 "text": "What does doctype in HTML do?",
                 "answers": [
                     {
-                        "answer": "Tells the browser how to render the HTML markup",
+                        "text": "Tells the browser how to render the HTML markup",
                         "value": true
                     },
                     {
-                        "answer": "Loads all references to external JavaScript files",
+                        "text": "Loads all references to external JavaScript files",
                         "value": false
                     },
                     {
-                        "answer": "Adds CSS styles to the HTML page",
+                        "text": "Adds CSS styles to the HTML page",
                         "value": false
                     },
                     {
-                        "answer": "It doesn't do anything it's just there as a comment to other developers",
+                        "text": "It doesn't do anything it's just there as a comment to other developers",
                         "value": false
                     }
                 ],
@@ -1165,19 +1165,19 @@
                 "text": "What is *NOT* an HTML5 element?",
                 "answers": [
                     {
-                        "answer": "block",
+                        "text": "block",
                         "value": true
                     },
                     {
-                        "answer": "audio",
+                        "text": "audio",
                         "value": false
                     },
                     {
-                        "answer": "canvas",
+                        "text": "canvas",
                         "value": false
                     },
                     {
-                        "answer": "section",
+                        "text": "section",
                         "value": false
                     }
                 ],
@@ -1188,19 +1188,19 @@
                 "text": "What is the difference between sessionStorage and localStorage?",
                 "answers": [
                     {
-                        "answer": "localStorage stores data with no expiration date",
+                        "text": "localStorage stores data with no expiration date",
                         "value": true
                     },
                     {
-                        "answer": "sessionStorage can only be used once",
+                        "text": "sessionStorage can only be used once",
                         "value": false
                     },
                     {
-                        "answer": "sessionStorage holds more data",
+                        "text": "sessionStorage holds more data",
                         "value": false
                     },
                     {
-                        "answer": "There's no difference they both accomplish the same thing",
+                        "text": "There's no difference they both accomplish the same thing",
                         "value": false
                     }
                 ]
@@ -1210,19 +1210,19 @@
                 "text": "How can you make a script run asynchronous?",
                 "answers": [
                     {
-                        "answer": "script async",
+                        "text": "script async",
                         "value": true
                     },
                     {
-                        "answer": "asynchronous",
+                        "text": "asynchronous",
                         "value": false
                     },
                     {
-                        "answer": "async script",
+                        "text": "async script",
                         "value": false
                     },
                     {
-                        "answer": "script asynchronous",
+                        "text": "script asynchronous",
                         "value": false
                     }
                 ]
@@ -1232,19 +1232,19 @@
                 "text": "What is Flexbox?",
                 "answers": [
                     {
-                        "answer": "Is a layout mode providing for the arrangement of elements",
+                        "text": "Is a layout mode providing for the arrangement of elements",
                         "value": true
                     },
                     {
-                        "answer": "How the browser interprets CSS",
+                        "text": "How the browser interprets CSS",
                         "value": false
                     },
                     {
-                        "answer": "A CSS animation framework",
+                        "text": "A CSS animation framework",
                         "value": false
                     },
                     {
-                        "answer": "A way to change the width of the browser window",
+                        "text": "A way to change the width of the browser window",
                         "value": false
                     }
                 ]
@@ -1254,19 +1254,19 @@
                 "text": "What does asynchronous mean?",
                 "answers": [
                     {
-                        "answer": "A script will send a request to the server, and continue its execution without waiting for the reply",
+                        "text": "A script will send a request to the server, and continue its execution without waiting for the reply",
                         "value": true
                     },
                     {
-                        "answer": "A task calls another task",
+                        "text": "A task calls another task",
                         "value": false
                     },
                     {
-                        "answer": "Order of operation",
+                        "text": "Order of operation",
                         "value": false
                     },
                     {
-                        "answer": "One task waits for the next task to finish before running",
+                        "text": "One task waits for the next task to finish before running",
                         "value": false
                     }
                 ]
@@ -1276,19 +1276,19 @@
                 "text": "What is event bubbling?",
                 "answers": [
                     {
-                        "answer": "The handler of the parent works even if the child is clicked",
+                        "text": "The handler of the parent works even if the child is clicked",
                         "value": true
                     },
                     {
-                        "answer": "A type of animation easing",
+                        "text": "A type of animation easing",
                         "value": false
                     },
                     {
-                        "answer": "Events that cause errors in the browser",
+                        "text": "Events that cause errors in the browser",
                         "value": false
                     },
                     {
-                        "answer": "Surfacing an event",
+                        "text": "Surfacing an event",
                         "value": false
                     }
                 ]
@@ -1298,19 +1298,19 @@
                 "text": "What is a problem with a single page app?",
                 "answers": [
                     {
-                        "answer": "Can cause SEO issues",
+                        "text": "Can cause SEO issues",
                         "value": true
                     },
                     {
-                        "answer": "May not have enough pages",
+                        "text": "May not have enough pages",
                         "value": false
                     },
                     {
-                        "answer": "Can have HTML issues",
+                        "text": "Can have HTML issues",
                         "value": false
                     },
                     {
-                        "answer": "May cause W3C validation errors",
+                        "text": "May cause W3C validation errors",
                         "value": false
                     }
                 ]
@@ -1320,19 +1320,19 @@
                 "text": "How do JavaScript closures work?",
                 "answers": [
                     {
-                        "answer": "A function within another function, the inner function has access to variables in the outer function",
+                        "text": "A function within another function, the inner function has access to variables in the outer function",
                         "value": true
                     },
                     {
-                        "answer": "It's a way to close a function in JavaScript",
+                        "text": "It's a way to close a function in JavaScript",
                         "value": false
                     },
                     {
-                        "answer": "JavaScript doesn't use closures",
+                        "text": "JavaScript doesn't use closures",
                         "value": false
                     },
                     {
-                        "answer": "Closures help structure objects in JavaScript",
+                        "text": "Closures help structure objects in JavaScript",
                         "value": false
                     }
                 ]
@@ -1342,19 +1342,19 @@
                 "text": "Which of these is the superior framework?",
                 "answers": [
                     {
-                        "answer": "React",
+                        "text": "React",
                         "value": false
                     },
                     {
-                        "answer": "Angular",
+                        "text": "Angular",
                         "value": false
                     },
                     {
-                        "answer": "Vue",
+                        "text": "Vue",
                         "value": false
                     },
                     {
-                        "answer": "Polymer",
+                        "text": "Polymer",
                         "value": false
                     }
                 ]
@@ -1369,19 +1369,19 @@
                 "text": "What does doctype in HTML do?",
                 "answers": [
                     {
-                        "answer": "Tells the browser how to render the HTML markup",
+                        "text": "Tells the browser how to render the HTML markup",
                         "value": true
                     },
                     {
-                        "answer": "Loads all references to external JavaScript files",
+                        "text": "Loads all references to external JavaScript files",
                         "value": false
                     },
                     {
-                        "answer": "Adds CSS styles to the HTML page",
+                        "text": "Adds CSS styles to the HTML page",
                         "value": false
                     },
                     {
-                        "answer": "It doesn't do anything it's just there as a comment to other developers",
+                        "text": "It doesn't do anything it's just there as a comment to other developers",
                         "value": false
                     }
                 ],
@@ -1392,19 +1392,19 @@
                 "text": "What is *NOT* an HTML5 element?",
                 "answers": [
                     {
-                        "answer": "block",
+                        "text": "block",
                         "value": true
                     },
                     {
-                        "answer": "audio",
+                        "text": "audio",
                         "value": false
                     },
                     {
-                        "answer": "canvas",
+                        "text": "canvas",
                         "value": false
                     },
                     {
-                        "answer": "section",
+                        "text": "section",
                         "value": false
                     }
                 ],
@@ -1415,19 +1415,19 @@
                 "text": "What is the difference between sessionStorage and localStorage?",
                 "answers": [
                     {
-                        "answer": "localStorage stores data with no expiration date",
+                        "text": "localStorage stores data with no expiration date",
                         "value": true
                     },
                     {
-                        "answer": "sessionStorage can only be used once",
+                        "text": "sessionStorage can only be used once",
                         "value": false
                     },
                     {
-                        "answer": "sessionStorage holds more data",
+                        "text": "sessionStorage holds more data",
                         "value": false
                     },
                     {
-                        "answer": "There's no difference they both accomplish the same thing",
+                        "text": "There's no difference they both accomplish the same thing",
                         "value": false
                     }
                 ]
@@ -1437,19 +1437,19 @@
                 "text": "How can you make a script run asynchronous?",
                 "answers": [
                     {
-                        "answer": "script async",
+                        "text": "script async",
                         "value": true
                     },
                     {
-                        "answer": "asynchronous",
+                        "text": "asynchronous",
                         "value": false
                     },
                     {
-                        "answer": "async script",
+                        "text": "async script",
                         "value": false
                     },
                     {
-                        "answer": "script asynchronous",
+                        "text": "script asynchronous",
                         "value": false
                     }
                 ]
@@ -1459,19 +1459,19 @@
                 "text": "What is Flexbox?",
                 "answers": [
                     {
-                        "answer": "Is a layout mode providing for the arrangement of elements",
+                        "text": "Is a layout mode providing for the arrangement of elements",
                         "value": true
                     },
                     {
-                        "answer": "How the browser interprets CSS",
+                        "text": "How the browser interprets CSS",
                         "value": false
                     },
                     {
-                        "answer": "A CSS animation framework",
+                        "text": "A CSS animation framework",
                         "value": false
                     },
                     {
-                        "answer": "A way to change the width of the browser window",
+                        "text": "A way to change the width of the browser window",
                         "value": false
                     }
                 ]
@@ -1481,19 +1481,19 @@
                 "text": "What does asynchronous mean?",
                 "answers": [
                     {
-                        "answer": "A script will send a request to the server, and continue its execution without waiting for the reply",
+                        "text": "A script will send a request to the server, and continue its execution without waiting for the reply",
                         "value": true
                     },
                     {
-                        "answer": "A task calls another task",
+                        "text": "A task calls another task",
                         "value": false
                     },
                     {
-                        "answer": "Order of operation",
+                        "text": "Order of operation",
                         "value": false
                     },
                     {
-                        "answer": "One task waits for the next task to finish before running",
+                        "text": "One task waits for the next task to finish before running",
                         "value": false
                     }
                 ]
@@ -1503,19 +1503,19 @@
                 "text": "What is event bubbling?",
                 "answers": [
                     {
-                        "answer": "The handler of the parent works even if the child is clicked",
+                        "text": "The handler of the parent works even if the child is clicked",
                         "value": true
                     },
                     {
-                        "answer": "A type of animation easing",
+                        "text": "A type of animation easing",
                         "value": false
                     },
                     {
-                        "answer": "Events that cause errors in the browser",
+                        "text": "Events that cause errors in the browser",
                         "value": false
                     },
                     {
-                        "answer": "Surfacing an event",
+                        "text": "Surfacing an event",
                         "value": false
                     }
                 ]
@@ -1525,19 +1525,19 @@
                 "text": "What is a problem with a single page app?",
                 "answers": [
                     {
-                        "answer": "Can cause SEO issues",
+                        "text": "Can cause SEO issues",
                         "value": true
                     },
                     {
-                        "answer": "May not have enough pages",
+                        "text": "May not have enough pages",
                         "value": false
                     },
                     {
-                        "answer": "Can have HTML issues",
+                        "text": "Can have HTML issues",
                         "value": false
                     },
                     {
-                        "answer": "May cause W3C validation errors",
+                        "text": "May cause W3C validation errors",
                         "value": false
                     }
                 ]
@@ -1547,19 +1547,19 @@
                 "text": "How do JavaScript closures work?",
                 "answers": [
                     {
-                        "answer": "A function within another function, the inner function has access to variables in the outer function",
+                        "text": "A function within another function, the inner function has access to variables in the outer function",
                         "value": true
                     },
                     {
-                        "answer": "It's a way to close a function in JavaScript",
+                        "text": "It's a way to close a function in JavaScript",
                         "value": false
                     },
                     {
-                        "answer": "JavaScript doesn't use closures",
+                        "text": "JavaScript doesn't use closures",
                         "value": false
                     },
                     {
-                        "answer": "Closures help structure objects in JavaScript",
+                        "text": "Closures help structure objects in JavaScript",
                         "value": false
                     }
                 ]
@@ -1569,19 +1569,19 @@
                 "text": "Which of these is the superior framework?",
                 "answers": [
                     {
-                        "answer": "React",
+                        "text": "React",
                         "value": false
                     },
                     {
-                        "answer": "Angular",
+                        "text": "Angular",
                         "value": false
                     },
                     {
-                        "answer": "Vue",
+                        "text": "Vue",
                         "value": false
                     },
                     {
-                        "answer": "Polymer",
+                        "text": "Polymer",
                         "value": false
                     }
                 ]
@@ -1596,19 +1596,19 @@
                 "text": "What does doctype in HTML do?",
                 "answers": [
                     {
-                        "answer": "Tells the browser how to render the HTML markup",
+                        "text": "Tells the browser how to render the HTML markup",
                         "value": true
                     },
                     {
-                        "answer": "Loads all references to external JavaScript files",
+                        "text": "Loads all references to external JavaScript files",
                         "value": false
                     },
                     {
-                        "answer": "Adds CSS styles to the HTML page",
+                        "text": "Adds CSS styles to the HTML page",
                         "value": false
                     },
                     {
-                        "answer": "It doesn't do anything it's just there as a comment to other developers",
+                        "text": "It doesn't do anything it's just there as a comment to other developers",
                         "value": false
                     }
                 ],
@@ -1619,19 +1619,19 @@
                 "text": "What is *NOT* an HTML5 element?",
                 "answers": [
                     {
-                        "answer": "block",
+                        "text": "block",
                         "value": true
                     },
                     {
-                        "answer": "audio",
+                        "text": "audio",
                         "value": false
                     },
                     {
-                        "answer": "canvas",
+                        "text": "canvas",
                         "value": false
                     },
                     {
-                        "answer": "section",
+                        "text": "section",
                         "value": false
                     }
                 ],
@@ -1642,19 +1642,19 @@
                 "text": "What is the difference between sessionStorage and localStorage?",
                 "answers": [
                     {
-                        "answer": "localStorage stores data with no expiration date",
+                        "text": "localStorage stores data with no expiration date",
                         "value": true
                     },
                     {
-                        "answer": "sessionStorage can only be used once",
+                        "text": "sessionStorage can only be used once",
                         "value": false
                     },
                     {
-                        "answer": "sessionStorage holds more data",
+                        "text": "sessionStorage holds more data",
                         "value": false
                     },
                     {
-                        "answer": "There's no difference they both accomplish the same thing",
+                        "text": "There's no difference they both accomplish the same thing",
                         "value": false
                     }
                 ]
@@ -1664,19 +1664,19 @@
                 "text": "How can you make a script run asynchronous?",
                 "answers": [
                     {
-                        "answer": "script async",
+                        "text": "script async",
                         "value": true
                     },
                     {
-                        "answer": "asynchronous",
+                        "text": "asynchronous",
                         "value": false
                     },
                     {
-                        "answer": "async script",
+                        "text": "async script",
                         "value": false
                     },
                     {
-                        "answer": "script asynchronous",
+                        "text": "script asynchronous",
                         "value": false
                     }
                 ]
@@ -1686,19 +1686,19 @@
                 "text": "What is Flexbox?",
                 "answers": [
                     {
-                        "answer": "Is a layout mode providing for the arrangement of elements",
+                        "text": "Is a layout mode providing for the arrangement of elements",
                         "value": true
                     },
                     {
-                        "answer": "How the browser interprets CSS",
+                        "text": "How the browser interprets CSS",
                         "value": false
                     },
                     {
-                        "answer": "A CSS animation framework",
+                        "text": "A CSS animation framework",
                         "value": false
                     },
                     {
-                        "answer": "A way to change the width of the browser window",
+                        "text": "A way to change the width of the browser window",
                         "value": false
                     }
                 ]
@@ -1708,19 +1708,19 @@
                 "text": "What does asynchronous mean?",
                 "answers": [
                     {
-                        "answer": "A script will send a request to the server, and continue its execution without waiting for the reply",
+                        "text": "A script will send a request to the server, and continue its execution without waiting for the reply",
                         "value": true
                     },
                     {
-                        "answer": "A task calls another task",
+                        "text": "A task calls another task",
                         "value": false
                     },
                     {
-                        "answer": "Order of operation",
+                        "text": "Order of operation",
                         "value": false
                     },
                     {
-                        "answer": "One task waits for the next task to finish before running",
+                        "text": "One task waits for the next task to finish before running",
                         "value": false
                     }
                 ]
@@ -1730,19 +1730,19 @@
                 "text": "What is event bubbling?",
                 "answers": [
                     {
-                        "answer": "The handler of the parent works even if the child is clicked",
+                        "text": "The handler of the parent works even if the child is clicked",
                         "value": true
                     },
                     {
-                        "answer": "A type of animation easing",
+                        "text": "A type of animation easing",
                         "value": false
                     },
                     {
-                        "answer": "Events that cause errors in the browser",
+                        "text": "Events that cause errors in the browser",
                         "value": false
                     },
                     {
-                        "answer": "Surfacing an event",
+                        "text": "Surfacing an event",
                         "value": false
                     }
                 ]
@@ -1752,19 +1752,19 @@
                 "text": "What is a problem with a single page app?",
                 "answers": [
                     {
-                        "answer": "Can cause SEO issues",
+                        "text": "Can cause SEO issues",
                         "value": true
                     },
                     {
-                        "answer": "May not have enough pages",
+                        "text": "May not have enough pages",
                         "value": false
                     },
                     {
-                        "answer": "Can have HTML issues",
+                        "text": "Can have HTML issues",
                         "value": false
                     },
                     {
-                        "answer": "May cause W3C validation errors",
+                        "text": "May cause W3C validation errors",
                         "value": false
                     }
                 ]
@@ -1774,19 +1774,19 @@
                 "text": "How do JavaScript closures work?",
                 "answers": [
                     {
-                        "answer": "A function within another function, the inner function has access to variables in the outer function",
+                        "text": "A function within another function, the inner function has access to variables in the outer function",
                         "value": true
                     },
                     {
-                        "answer": "It's a way to close a function in JavaScript",
+                        "text": "It's a way to close a function in JavaScript",
                         "value": false
                     },
                     {
-                        "answer": "JavaScript doesn't use closures",
+                        "text": "JavaScript doesn't use closures",
                         "value": false
                     },
                     {
-                        "answer": "Closures help structure objects in JavaScript",
+                        "text": "Closures help structure objects in JavaScript",
                         "value": false
                     }
                 ]
@@ -1796,19 +1796,19 @@
                 "text": "Which of these is the superior framework?",
                 "answers": [
                     {
-                        "answer": "React",
+                        "text": "React",
                         "value": false
                     },
                     {
-                        "answer": "Angular",
+                        "text": "Angular",
                         "value": false
                     },
                     {
-                        "answer": "Vue",
+                        "text": "Vue",
                         "value": false
                     },
                     {
-                        "answer": "Polymer",
+                        "text": "Polymer",
                         "value": false
                     }
                 ]

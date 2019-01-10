@@ -5,7 +5,7 @@ import 'package:quizpany/models/answer.dart';
 import 'package:quizpany/widgets/final_score_card.dart';
 
 class Results extends StatefulWidget {
-  final List<Answer> _answers = [
+  final List<AnswerModel> _answers = [
   ];
 
   @override
@@ -17,7 +17,7 @@ class _ResultsState extends State<Results> {
 
   BuildContext _scaffoldContext;
 
-  ExpansionPanel _buildAnswerExpansionPanel(Answer answer) {
+  ExpansionPanel _buildAnswerExpansionPanel(AnswerModel answer) {
     return ExpansionPanel(
       headerBuilder: (context, isExpanded) {
         return ListTile(

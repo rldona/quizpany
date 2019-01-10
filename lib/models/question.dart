@@ -3,7 +3,7 @@ import 'package:quizpany/models/answer.dart';
 class QuestionModel {
   final int id;
   final String text;
-  final List<Answer> answers;
+  final List<AnswerModel> answers;
   final String explanation;
   String category;
 
@@ -18,6 +18,6 @@ class QuestionModel {
       : id = parsedJson['id'],
         text = parsedJson['text'],
         answers = List<dynamic>.from(parsedJson['answers'])
-            .map((json) => Answer.fromJson(json)).toList(),
+            .map((json) => AnswerModel.fromJson(json)).toList(),
         explanation = parsedJson['explanation'];
 }
