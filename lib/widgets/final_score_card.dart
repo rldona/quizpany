@@ -11,7 +11,7 @@ class FinalScoreCard extends StatelessWidget {
   double _getScore() {
     final rightCount = answers.fold(
       0,
-      (nRight, answer) => nRight + (answer.isRight ? 1 : 0),
+      (nRight, answer) => nRight + (answer.value ? 1 : 0),
     );
     return rightCount / answers.length;
   }

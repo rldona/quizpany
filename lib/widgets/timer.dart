@@ -1,14 +1,13 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
 
 class _TimerPainter extends CustomPainter {
-  final Animation<double> animation;
+  final double value;
   final Color color;
 
   _TimerPainter({
-    this.animation,
+    this.value,
     this.color,
-  }) : super(repaint: animation);
+  });
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -19,13 +18,13 @@ class _TimerPainter extends CustomPainter {
       ..style = PaintingStyle.fill;
 
     canvas.drawRect(
-        Rect.fromLTRB(0, 0, size.width * animation.value, size.height), paint);
+        Rect.fromLTRB(0, 0, size.width * value, size.height), paint);
     // canvas.drawArc(Offset.zero & size, 3 * pi / 2, -progress, true, paint);
   }
 
   @override
   bool shouldRepaint(_TimerPainter old) {
-    return animation.value != old.animation.value || color != old.color;
+    return value != old.value || color != old.color;
   }
 }
 
@@ -37,7 +36,6 @@ class TimerBar extends StatelessWidget {
 
   String get timerString {
     Duration timeLeft = questionTime - (questionTime * animation.value);
-    //_questionTime - (animation.duration * animation.value);
     return '${(timeLeft.inSeconds % 60).toString().padLeft(2, '0')}';
   }
 
@@ -58,7 +56,7 @@ class TimerBar extends StatelessWidget {
 
                 return CustomPaint(
                   painter: _TimerPainter(
-                    animation: animation,
+                    value: animation.value,
                     color: color,
                   ),
                 );

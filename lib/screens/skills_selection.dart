@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizpany/blocs/questions_bloc.dart';
 
 import 'package:quizpany/widgets/category_list.dart';
 
@@ -18,17 +19,17 @@ class _SkillsSelectionState extends State<SkillsSelection> {
     {'id': 7, 'name': 'People', 'selected': false},
   ];
 
-  List categoriesSelected = [];
+  List<String> categoriesSelected = [];
 
   _addRemoveCategory(id, isSelected) {
-    categories[id]['selected'] = isSelected;
-    isSelected
-        ? categoriesSelected.add(categories[id])
-        : categoriesSelected.removeWhere((category) => category['id'] == id);
-    print(categoriesSelected);
+    setState(() {
+      categories[id]['selected'] = isSelected;
+      isSelected
+          ? categoriesSelected.add(categories[id]['name'])
+          : categoriesSelected.removeWhere(
+              (categoryName) => categories[id]['name'] == categoryName);
+    });
   }
-
-  _shouldSelectedCategory() {}
 
   @override
   Widget build(BuildContext context) {
@@ -79,11 +80,12 @@ class _SkillsSelectionState extends State<SkillsSelection> {
                       ),
                     ),
                     color: Colors.blue,
-                    // TODO: replace route by explanation screen
-                    onPressed: () => categoriesSelected.length > 0
-                        ? Navigator.pushReplacementNamed(
-                            context, '/explanation')
-                        : _shouldSelectedCategory,
+                    onPressed: categoriesSelected.length == 0
+                        ? null
+                        : () {
+                            bloc.fetchQuestions(categoriesSelected);
+                            Navigator.pushReplacementNamed(context, '/explanation');
+                          },
                   ),
                 ),
               ],

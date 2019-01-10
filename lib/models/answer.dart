@@ -1,16 +1,13 @@
 class Answer {
-  final int id;
-  final String rightAnswer;
-  final String givenAnswer;
-  final String question;
-  final String explanation;
+  final String text;
+  final bool value;
 
-  Answer(
-      {this.id,
-      this.rightAnswer,
-      this.givenAnswer,
-      this.question,
-      this.explanation});
+  Answer({
+    this.text,
+    this.value,
+  });
 
-  bool get isRight => rightAnswer == givenAnswer;
+  Answer.fromJson(Map<String, dynamic> parsedJson)
+      : text = parsedJson['text'],
+        value = parsedJson['value'];
 }

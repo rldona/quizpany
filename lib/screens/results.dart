@@ -6,41 +6,6 @@ import 'package:quizpany/widgets/final_score_card.dart';
 
 class Results extends StatefulWidget {
   final List<Answer> _answers = [
-    Answer(
-      id: 1,
-      rightAnswer: 'A',
-      givenAnswer: 'A',
-      question: 'Diferencia entre map y reduce',
-      explanation: "Map mapea y Reduce reduce",
-    ),
-    Answer(
-      id: 2,
-      rightAnswer: 'B',
-      givenAnswer: 'B',
-      question: 'Question 2',
-      explanation: "This is an explanation for the question 2",
-    ),
-    Answer(
-      id: 3,
-      rightAnswer: 'C',
-      givenAnswer: 'C',
-      question: 'Question 3',
-      explanation: "This is an explanation for the question 3",
-    ),
-    Answer(
-      id: 4,
-      rightAnswer: 'A',
-      givenAnswer: 'B',
-      question: 'Question 4',
-      explanation: "This is an explanation for the question 4",
-    ),
-    Answer(
-      id: 5,
-      rightAnswer: 'D',
-      givenAnswer: 'D',
-      question: 'Question 5',
-      explanation: "This is an explanation for the question 5",
-    ),
   ];
 
   @override
@@ -57,20 +22,20 @@ class _ResultsState extends State<Results> {
       headerBuilder: (context, isExpanded) {
         return ListTile(
           leading: Icon(
-            answer.isRight ? Icons.check : Icons.clear,
-            color: answer.isRight ? Colors.green : Colors.red,
+            answer.value ? Icons.check : Icons.clear,
+            color: answer.value ? Colors.green : Colors.red,
           ),
           title: Text(
-            answer.question,
+            answer.text,
             style: TextStyle(fontSize: 20.0),
           ),
         );
       },
-      isExpanded: _expandedAnswers.contains(answer.id),
+      isExpanded: _expandedAnswers.contains(answer.hashCode),
       body: Container(
         margin: EdgeInsets.all(10.0),
         child: Text(
-          answer.explanation,
+          answer.text,
         ),
       ),
     );
@@ -88,7 +53,7 @@ class _ResultsState extends State<Results> {
                 ExpansionPanelList(
                     expansionCallback: (index, isExpanded) {
                       setState(() {
-                        final answerId = widget._answers[index].id;
+                        final answerId = widget._answers[index].hashCode;
                         if (_expandedAnswers.contains(answerId)) {
                           _expandedAnswers.remove(answerId);
                         } else {
