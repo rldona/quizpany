@@ -35,9 +35,11 @@ class Answer extends StatelessWidget {
             groupValue: _groupValue,
             onChanged: _onSelect,
           ),
-          Text(
-            answer.text,
-            style: style,
+          Expanded(
+            child: Text(
+              answer.text,
+              style: style,
+            ),
           ),
         ],
       ),

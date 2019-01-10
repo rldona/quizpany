@@ -59,7 +59,9 @@ class _QuizCardState extends State<QuizCard> {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
-            Wrap(children: _renderAnswers()),
+            Wrap(
+              children: _renderAnswers(),
+            ),
             SizedBox(height: 10)
           ],
         ),
