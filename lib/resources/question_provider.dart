@@ -8,22 +8,18 @@ class QuestionProvider {
   final assetPath = 'assets/data/questions.json';
 
   Future<List<Map<String, dynamic>>> _loadFromAssetJson() async {
-    return rootBundle
-        .loadString(assetPath)
-        .then((jsonStr) => List.from(jsonDecode(jsonStr)));
+    return rootBundle.loadString(assetPath).then(
+        (jsonStr) => List<Map<String, dynamic>>.from(jsonDecode(jsonStr)));
   }
 
   Future<List<QuestionModel>> loadQuestions(List<String> categories) async {
     final parsedJson = await _loadFromAssetJson();
 
-    print(parsedJson.where((element) => categories.contains(element["category"])));
-
-    return <QuestionModel>[];
-
-    return parsedJson
+    return List<QuestionModel>.from(parsedJson
         .where((element) => categories.contains(element["category"]))
-        .map((json) => QuestionModel.fromJson(json["questions"])
-          ..category = json["category"])
-        .toList();
+        .map((Map<String, dynamic> json) {
+      return json["questions"].map((questionJson) =>
+          QuestionModel.fromJson(questionJson)..category = json["category"]);
+    }).expand((i) => i));
   }
 }

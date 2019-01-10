@@ -18,6 +18,6 @@ class QuestionModel {
       : id = parsedJson['id'],
         text = parsedJson['text'],
         answers = List<dynamic>.from(parsedJson['answers'])
-            .map((json) => Answer.fromJson(json)),
+            .map((json) => Answer.fromJson(json)).toList(),
         explanation = parsedJson['explanation'];
 }
